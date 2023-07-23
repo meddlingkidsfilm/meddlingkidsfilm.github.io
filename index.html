@@ -16,35 +16,48 @@
             .container {
                 text-align: center;
             }
-        </style>
-    </head>
-    <body>
-        
-        <div class="container">
-            <h1>Meddling Kids</h1>
-           <div style="width:80vw;height:45vw;position:relative;">
-    <iframe src="https://player.vimeo.com/video/847643933?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" 
-        frameborder="10" 
-        allow="autoplay; fullscreen; picture-in-picture" 
-        allowfullscreen style="position:absolute;top:0;left:0;width:100%;height:100%;" 
-        title="Meddling Kids - Trailer">
-    </iframe>
-        </div>
-
-            <script src="https://player.vimeo.com/api/player.js"></script>
-            <a href="https://www.instagram.com/meddlingkidsfilm/" 
-                target="_blank" 
-                style="color: #C13584; 
+            .video-container {
+                width:80vw;
+                height:45vw;
+                position:relative;
+                margin-bottom: 30px;
+            }
+            .video-container iframe {
+                position:absolute;
+                top:0;
+                left:0;
+                width:100%;
+                height:100%;
+            }
+            .insta-link {
+                display: inline-block;
+                color: #C13584; 
                 text-decoration: none; 
                 background-color: #FEE2E2; 
                 padding: 30px 30px; 
                 border-radius: 5px; 
                 font-family: Arial, sans-serif; 
                 font-weight: bold;
-                margin-top: 30px;">
-    Follow us on Instagram
-</a>
-
+            }
+        </style>
+    </head>
+    <body>
+        <div class="container">
+            <h1>Meddling Kids</h1>
+            <div class="video-container">
+                <iframe src="https://player.vimeo.com/video/847643933?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" 
+                    frameborder="10" 
+                    allow="autoplay; fullscreen; picture-in-picture" 
+                    allowfullscreen 
+                    title="Meddling Kids - Trailer">
+                </iframe>
+            </div>
+            <script src="https://player.vimeo.com/api/player.js"></script>
+            <a href="https://www.instagram.com/meddlingkidsfilm/" 
+                target="_blank" 
+                class="insta-link">
+                Follow us on Instagram
+            </a>
         </div>
     </body>
 </html>
